@@ -1,0 +1,15 @@
+# Reproducible exports; keep the base directory in Git.
+/exports/*
+!/exports/.gitkeep
+
+# Disposable agent work and Git worktrees.
+.codex-tmp/
+.worktrees/
+
+# Saved-design backups.
+*.bak
+
+# Optional Python checking helpers.
+__pycache__/
+*.py[cod]
+.venv/
