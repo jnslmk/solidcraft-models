@@ -15,8 +15,12 @@ Use `models/<snake_case_family>/` for a model or related parts. Keep each
 part/assembly's authoritative `.solidcraft` document there, with a family
 `README.md` describing its purpose, important parameters, interfaces, material,
 tolerances, print orientation and verification. Add intentionally repeatable build
-scripts or geometry checks alongside the design only when needed. There are no
-sample models or repository-specific build tools yet.
+scripts or geometry checks alongside the design only when needed.
+
+## Models
+
+- [Notched plate sketch](models/notched_plate/README.md)
+- [LED profile endcaps](models/led_profiles/README.md): standard and wired variants
 
 Write generated artifacts to `exports/<family>/`. Retain editable source; STL is
 the default print export, with STEP when requested. Temporary screenshots and
