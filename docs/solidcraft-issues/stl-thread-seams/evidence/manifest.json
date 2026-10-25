@@ -1,0 +1,50 @@
+{
+  "endcap_hybrid_baseline.solidcraft": {
+    "bytes": 904291,
+    "sha256": "7ab3446d98c10543160eccb002fb872dc553b9d70af48f716b40dad3abc39757"
+  },
+  "historical_incomplete_weld_metrics.json": {
+    "bytes": 266,
+    "sha256": "0c1ee62cc7235a156cfe6f628562e6df68152739b6cdea90bdaccf0215ea8533"
+  },
+  "historical_weld_failure.log": {
+    "bytes": 955,
+    "sha256": "13e501e95e5542dc59070918acbd9efc44f8b267f8938d82f9048d75da564467"
+  },
+  "native_export_original.stl": {
+    "bytes": 1192634,
+    "sha256": "9638516e863eaa821e3e34bc6d849049f1895061080c25b8b1c954c3ab23ecee"
+  },
+  "native_persisted.step": {
+    "bytes": 618671,
+    "sha256": "051ab8c43749c9e3ec696d6b7f4e117990c16bdd85aa824a89329bd4fe0670b4"
+  },
+  "native_step_occt_control.stl": {
+    "bytes": 2326284,
+    "sha256": "f6dbc9ea83c6491f524c0f875f8fdacbd3a9d2e08cb96980dfcb0b28a0152961"
+  },
+  "native_validity_observations.log": {
+    "bytes": 1003,
+    "sha256": "c03372bd6ade7ebb838a7b0f4679418db62a3020ab77ad1628a8fce758de816b"
+  },
+  "recorded_final_mesh_metrics.json": {
+    "bytes": 213,
+    "sha256": "09ca2e8e15ebabecc7669af8f4eec985765f361e1090aa4f46cb46f6d7802d8b"
+  },
+  "source_fine.stl": {
+    "bytes": 2208384,
+    "sha256": "7a56cc39094c8b518359c7c2d9571868e95e57512254eec25f23a50cfdeaea8e"
+  },
+  "source_only_roundtrip.stl": {
+    "bytes": 1146134,
+    "sha256": "13ddff79cb694ecd59db579f62542a537bd0440edfa93157c829d7f84f092e6d"
+  },
+  "validate_stl.py": {
+    "bytes": 4430,
+    "sha256": "d87248f669a439ad00482b6d5e3bedbc5de33b950493d4446a6fde50873733f1"
+  },
+  "validation_results.json": {
+    "bytes": 1792,
+    "sha256": "2c54954d57138cf9a35084bc21aece7068a0491a078ec6ce1e72f1d5ce1a037a"
+  }
+}

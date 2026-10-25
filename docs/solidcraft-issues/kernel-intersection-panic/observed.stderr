@@ -1,0 +1,62 @@
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+
+thread 'main' (186550) panicked at vendor/truck-geometry/src/decorators/intersection_curve.rs:133:62:
+called `Option::unwrap()` on a `None` value
+error: step 368 (solid.fillet): not supported yet: the blend is larger than the neighbouring faces (site 387) (the operation failed: not supported yet: both faces next to the edge must be planar)

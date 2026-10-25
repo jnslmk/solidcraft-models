@@ -1,0 +1,11 @@
+{
+  "original_triangles": 23851,
+  "triangles": 23506,
+  "vertices": 11741,
+  "edges": 35259,
+  "all_edges_incidence_two": true,
+  "connected_components": 1,
+  "orientation_conflicts": 0,
+  "signed_volume_mm3": 7209.314786663974,
+  "maximum_vertex_weld_mm": 0.0002
+}

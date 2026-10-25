@@ -1,0 +1,39 @@
+{
+  "provenance": "Selected unchanged response objects from the existing successful thread-001.log: timeline.inspect and the bodies array from the final document.inspect. This is an excerpt, not a fresh run or the full CLI response array.",
+  "timeline_inspect": {
+    "boolean_diagnostics": {"events": [], "truncated": false},
+    "definition": {
+      "designation": "M12.3x1.5",
+      "face": [5.33810118395, 0.0, 4.75],
+      "length": "6.5",
+      "modeled": true
+    },
+    "error": null,
+    "id": 3,
+    "inputs": [{"expression": "6.5", "label": "Length", "param": "d5", "unit": "mm"}],
+    "name": "NativeFemaleThread",
+    "omitted": [],
+    "rolled_back": false,
+    "suppressed": false,
+    "type": "ThreadFeature",
+    "warning": null
+  },
+  "document_inspect_bodies": [
+    {
+      "area_mm2": 1210.230734791439,
+      "bbox": {
+        "max": [9.99820045062534, 9.999731337406425, 8.00000000000638],
+        "min": [-9.998200450625337, -9.999731337406425, 1.4999999999977045]
+      },
+      "center_of_mass": [0.011356064112087049, -0.0065527533301056795, 4.750000752958421],
+      "edges": 4183,
+      "face_types": {"plane": 1674},
+      "faces": 1674,
+      "kernel": {"edges": 10971, "faces": 1754, "shells": 1, "vertices": 9219},
+      "name": "Body1",
+      "vertices": 2510,
+      "visible": true,
+      "volume_mm3": 1378.7293780684506
+    }
+  ]
+}

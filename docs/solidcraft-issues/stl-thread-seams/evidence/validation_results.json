@@ -1,0 +1,76 @@
+[
+  {
+    "command": [
+      "python3",
+      "evidence/validate_stl.py",
+      "evidence/native_export_original.stl"
+    ],
+    "exit_code": 1,
+    "result": {
+      "file": "evidence/native_export_original.stl",
+      "triangles": 23851,
+      "repeated_vertex_facets": 60,
+      "valid": false,
+      "error": "Mesh has a degenerate facet"
+    },
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "evidence/validate_stl.py",
+      "evidence/source_only_roundtrip.stl"
+    ],
+    "exit_code": 1,
+    "result": {
+      "file": "evidence/source_only_roundtrip.stl",
+      "triangles": 22921,
+      "repeated_vertex_facets": 60,
+      "valid": false,
+      "error": "Mesh has a degenerate facet"
+    },
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "evidence/validate_stl.py",
+      "evidence/source_fine.stl"
+    ],
+    "exit_code": 0,
+    "result": {
+      "file": "evidence/source_fine.stl",
+      "triangles": 44166,
+      "repeated_vertex_facets": 0,
+      "vertices": 22077,
+      "edges": 66249,
+      "connected_components": 1,
+      "closed_edge_and_vertex_manifold": true,
+      "consistent_outward_winding": true,
+      "mesh_volume_mm3": 7207.052877404052,
+      "valid": true
+    },
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "evidence/validate_stl.py",
+      "evidence/native_step_occt_control.stl"
+    ],
+    "exit_code": 0,
+    "result": {
+      "file": "evidence/native_step_occt_control.stl",
+      "triangles": 46524,
+      "repeated_vertex_facets": 0,
+      "vertices": 23256,
+      "edges": 69786,
+      "connected_components": 1,
+      "closed_edge_and_vertex_manifold": true,
+      "consistent_outward_winding": true,
+      "mesh_volume_mm3": 7208.03368366944,
+      "valid": true
+    },
+    "stderr": ""
+  }
+]

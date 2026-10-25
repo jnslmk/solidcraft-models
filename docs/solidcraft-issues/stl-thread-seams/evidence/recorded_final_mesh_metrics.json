@@ -1,0 +1,9 @@
+{
+  "triangles": 46524,
+  "vertices": 23256,
+  "edges": 69786,
+  "connected_components": 1,
+  "closed_edge_and_vertex_manifold": true,
+  "consistent_outward_winding": true,
+  "mesh_volume_mm3": 7208.03368366944
+}

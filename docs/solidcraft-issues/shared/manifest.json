@@ -1,0 +1,27 @@
+{
+  "README.md": {
+    "bytes": 2560,
+    "sha256": "d167af85c8b77d6c161618353234a1a87380ff5f36953080dbf610be01527596",
+    "provenance": "Shared attachment documentation"
+  },
+  "endcap_native_unfinished.solidcraft": {
+    "bytes": 8375705,
+    "sha256": "c4bbc767051ed5a8a37ed669381349781925b4e7a19ee1dbcd36cccf56bbd68d",
+    "provenance": "models/led_profiles/endcap_native_unfinished.solidcraft; saved loaded native desktop design"
+  },
+  "native-endcap-overview.png": {
+    "bytes": 329427,
+    "sha256": "3162569f61d739fec85ff9066ef8d7f599b2d170633ced00e9cb558b08feab62",
+    "provenance": "Saved desktop screenshot from the same Save As operation"
+  },
+  "screw-access-underside.png": {
+    "bytes": 133065,
+    "sha256": "face9f5c37766773b3fd9129eab8a0ea6074f681a6b22ad945f55a2df5c92b6b",
+    "provenance": "User-supplied underside screenshot"
+  },
+  "screw-breakout-detail.png": {
+    "bytes": 162783,
+    "sha256": "f28fb3c1450acfe49a5ee92f449a4408e5a5297f7d9ca09c44ed5993a6935b3e",
+    "provenance": "User-supplied closeup screenshot identifying the missing fillet region"
+  }
+}

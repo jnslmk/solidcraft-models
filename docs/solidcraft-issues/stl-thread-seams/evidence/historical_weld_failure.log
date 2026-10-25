@@ -1,0 +1,19 @@
+Historical diagnostic, not a current reproduction or valid repair recommendation.
+
+An early repair experiment welded coordinates within 0.0002 mm and removed
+collapsed/duplicate triangles. It reported incidence-two edges, one connected
+component and coherent orientation. See historical_incomplete_weld_metrics.json.
+
+A later version of the repair helper added vertex-manifold validation and failed:
+
+  main()
+    print(json.dumps(repair_stl(args.raw_stl, args.printable_stl), indent=2))
+  repair_stl(...)
+    raise ValueError("Mesh has a nonmanifold vertex")
+  ValueError: Mesh has a nonmanifold vertex
+
+This excerpt preserves the error and call names from the recorded stderr;
+workstation paths and historical source line numbers have been omitted.
+The experimental repair helper was subsequently replaced by STEP retessellation.
+The attached validate_stl.py is the retained final read-only topology validator,
+not that discarded repair implementation.
