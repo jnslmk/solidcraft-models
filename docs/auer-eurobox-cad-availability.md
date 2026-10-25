@@ -4,7 +4,7 @@ Research checked **2026-10-25**. Scope: standard solid-walled, open-top AUER Eur
 
 ## Decision
 
-**Do not build detailed box models now.** A verified third-party GrabCAD file listing already contains **STEP models at all six relevant nominal heights: 75, 120, 170, 220, 270 and 320 mm**, with four handle configurations per height. They are a practical reuse-first option for personal cupboard layout **after logging into GrabCAD and checking the selected file against current AUER dimensions**. Download endpoints tested anonymously returned HTTP 401; actual file contents and import success have not been validated. [G1–G3]
+**Updated decision, 2026-10-25: replace the restricted downloads with independently constructed native layout models.** Redistribution requirements rule out embedding the GrabCAD solids in the current cupboard. See the [native Eurobox model](../models/auer_euroboxes/README.md) and [updated cupboard](../models/eurobox_cupboard/README.md). Their geometry is original native construction from catalogue dimensions plus documented assumptions, not traced or converted third-party CAD. All six nominal heights are covered parametrically. Undocumented interfaces remain unverified; this is not manufacturer-certified geometry or blanket legal clearance. The source/access research below records the earlier reuse investigation; its download/reuse recommendations are historical, not the current workflow.
 
 These are **not manufacturer-certified geometry**. The author explicitly marks them `[similar]` because dimensions beyond AUER's main dimensions may not correspond to reality. Use them as approximate layout/visual references, not as the source of exact rim-contact, rail, snap-fit or fabrication geometry. No public first-party 3D CAD download was found in the official category, inspected product pages or discoverable contact/catalogue links; that is **not proof that AUER has no CAD or cannot supply it on request**. [A1–A4, G1]
 
@@ -74,7 +74,7 @@ Its visible license is **CC BY 4.0**; the API explicitly says author credit is r
 
 Search also surfaced model aggregators/mirrors and printable dividers/holders. They were not substituted for the original author's actual box files: accessories are not whole-box geometry, and a mirror's format snippet is weaker evidence than the original GrabCAD file manifest.
 
-## 5. Reuse boundary and next action
+## 5. Historical reuse assessment (superseded)
 
 1. **Reuse for layout:** download the appropriate-height STEP from Gergely DEGI's original listing after login, choose the correct handles, and check units, orientation and overall dimensions before positioning it. For SolidCraft, neutral **STEP/IGES** is preferable to a triangulated visualization prop; the pinned [SolidCraft v0.22.0 README][SC1] lists these among supported exchange formats, **“where supported.”** Actual import/support for these particular files has not been exercised. The verified AUER candidates supply STEP, not IGES.
 2. **Do not stretch one detailed box to invent another height:** all six sizes already exist in the verified listing. Keep the model's approximate status explicit. For unavailable access, a simple nominal envelope can support early space allocation without re-creating ribs and fillets; it is not a measured box model.
