@@ -1,9 +1,9 @@
 ID,Item,Specification,Required_quantity,Purchase_quantity,Unit,Unit_price_EUR,Line_total_EUR,Notes,Source
 T1,Main frame timber,Planed spruce 44 x 44 x 2500 mm,10,10,piece,9.75,97.50,"8 uprights at 2000 mm from 8 lengths; 4 continuous rails at 1124 mm from 2 lengths (2 rails per length); previously observed price not a quotation",https://www.hornbach.de/p/konsta-kantholz-fichte-gehobelt-2500-x-44-x-44-mm/1001281/
-T2,Crate support timber,Planed spruce 24 x 44 x 2500 mm,9,9,piece,4.50,40.50,"42 ribs at 420 mm; original orientation 24 mm across bay and 44 mm vertical",https://www.hornbach.de/p/konsta-kantholz-fichte-gehobelt-2500-x-44-x-24-mm/1000459/
+T2,Crate support timber,Planed spruce 24 x 44 x 2500 mm,12,12,piece,4.50,54.00,"60 ribs at 420 mm; five ribs per stock length; original orientation 24 mm across bay and 44 mm vertical",https://www.hornbach.de/p/konsta-kantholz-fichte-gehobelt-2500-x-44-x-24-mm/1000459/
 H1,Half-lap retaining screws,Wood screws nominal 4 x 40 mm,16,20,screw,,,Planning allowance of one screw per half-lap for 16 joints; glue joints and confirm screw suitability; pilot drill and obey manufacturer edge distances and spacing; confirm fastening capacity; no load rating,
-H2,Rib screws,Wood screws nominal 4 x 60 mm,168,200,screw,,,Two per rib end; pilot drill and obey manufacturer spacing; offset opposing screw paths,
+H2,Rib screws,Wood screws nominal 4 x 60 mm,240,250,screw,,,Two per rib end; pilot drill and obey manufacturer spacing; offset opposing screw paths,
 H5,Anti-tip restraints,Rated furniture-to-wall restraint kit,2,2,kit,,,Fix into frame and appropriate wall substrate; does not by itself establish resistance to racking,
 H6,Leveling packers,Non-compressible shims,1,1,pack,,,Support all eight upright feet,
 H7,Wall bracing connections,Structural wall brackets and substrate-appropriate fixings,4,4,connection,,,Planning allowance at upper/lower outer rear posts; must restrain lateral racking as well as tipping; final rating and fixings depend on wall and load,
-S1,Known-price subtotal,Timber only,,,,,138.00,Excludes hardware delivery cutting finish boxes and wall-specific fixing costs; no plywood required,
+S1,Known-price subtotal,Timber only,,,,,151.50,Excludes hardware delivery cutting finish boxes and wall-specific fixing costs; no plywood required; assumed existing crate mix is 3 x 220 mm + 12 x 170 mm + 6 x 120 mm + 9 x 75 mm; crates are not procurement items,
