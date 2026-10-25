@@ -1,0 +1,10 @@
+ID,Item,Specification,Required_quantity,Purchase_quantity,Unit,Unit_price_EUR,Line_total_EUR,Notes,Source
+T1,Main frame timber,Planed spruce 44 x 44 x 2500 mm,9,9,piece,9.75,87.75,"8 uprights at 2000 mm; 12 crossbars at 316 mm; reuse upright offcuts; previously observed price not a quotation",https://www.hornbach.de/p/konsta-kantholz-fichte-gehobelt-2500-x-44-x-44-mm/1001281/
+T2,Crate support timber,Planed spruce 24 x 44 x 2500 mm,9,9,piece,4.50,40.50,"42 ribs at 420 mm; original orientation 24 mm across bay and 44 mm vertical",https://www.hornbach.de/p/konsta-kantholz-fichte-gehobelt-2500-x-44-x-24-mm/1000459/
+H1,Frame angle brackets,Steel furniture angles approximately 40 x 40 x 30 mm with 2 fixing holes per leg,24,24,piece,,,Choose bracket rating for intended loads; one per crossbar end,
+H2,Rib screws,Wood screws nominal 4 x 60 mm,168,200,screw,,,Two per rib end; pilot drill and obey manufacturer spacing; offset opposing screw paths,
+H3,Bracket screws,Wood screws nominal 4 x 30 mm,96,100,screw,,,Four per frame angle; verify head and fixing compatibility,
+H5,Anti-tip restraints,Rated furniture-to-wall restraint kit,2,2,kit,,,Fix into frame and appropriate wall substrate; does not by itself establish resistance to racking,
+H6,Leveling packers,Non-compressible shims,1,1,pack,,,Support all eight upright feet,
+H7,Wall bracing connections,Structural wall brackets and substrate-appropriate fixings,4,4,connection,,,Planning allowance at upper/lower outer rear posts; must restrain lateral racking as well as tipping; final rating and fixings depend on wall and load,
+S1,Known-price subtotal,Timber only,,,,,128.25,Excludes hardware delivery cutting finish boxes and wall-specific fixing costs; no plywood required,

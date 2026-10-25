@@ -13,3 +13,10 @@
 __pycache__/
 *.py[cod]
 .venv/
+
+# Downloaded third-party CAD; non-commercial internal-use terms.
+/models/auer_euroboxes/reference/
+
+# Assembly embeds the restricted GrabCAD reference geometry.
+/models/eurobox_cupboard/cupboard.solidcraft
+/models/eurobox_cupboard/cupboard_slide.solidcraft
