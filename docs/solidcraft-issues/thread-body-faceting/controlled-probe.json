@@ -1,0 +1,67 @@
+{
+  "commands": [
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": false,
+        "sketches": false
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "radius": 10,
+        "height": 6.5,
+        "base": [
+          0,
+          0,
+          1.5
+        ],
+        "operation": "new",
+        "name": "ThreadCoupon"
+      }
+    },
+    {
+      "command": "solid.cylinder",
+      "params": {
+        "diameter": 10.6762023679,
+        "height": 10,
+        "operation": "cut",
+        "name": "MinorBore"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true,
+        "sketches": false
+      }
+    },
+    {
+      "command": "solid.thread",
+      "params": {
+        "face": [
+          5.33810118395,
+          0,
+          4.75
+        ],
+        "designation": "M12.3x1.5",
+        "length": 6.5,
+        "modeled": true,
+        "name": "NativeFemaleThread"
+      }
+    },
+    {
+      "command": "timeline.inspect",
+      "params": {
+        "feature": "NativeFemaleThread"
+      }
+    },
+    {
+      "command": "document.inspect",
+      "params": {
+        "measure": true
+      }
+    }
+  ]
+}

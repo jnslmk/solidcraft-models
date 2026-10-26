@@ -1,0 +1,351 @@
+{
+  "provenance": {
+    "date": "2026-10-25",
+    "version": "solidcraft-cli 0.21.0",
+    "commands": [
+      "solidcraft-cli run cosmetic-probe.json --results --json-out cosmetic-results.json",
+      "solidcraft-cli run controlled-probe.json --results --save controlled-coupon.solidcraft --out controlled-coupon.step --json-out controlled-results.json",
+      "solidcraft-cli eval controlled-coupon.solidcraft --json-out reload-results.json"
+    ],
+    "scope": "Selected unchanged response objects from new isolated headless controls. The original thread-probe.json and observed-results.json remain unchanged. Measured bounds are not independent exact analytic extrema.",
+    "exit_codes": [
+      0,
+      0,
+      0
+    ]
+  },
+  "modeled": {
+    "before": [
+      {
+        "area_mm2": 1075.662363264779,
+        "bbox": {
+          "max": [
+            9.99984556213238,
+            9.999763825245502,
+            8.000000000000002
+          ],
+          "min": [
+            -9.999845562132379,
+            -9.999763825245504,
+            1.499999999999994
+          ]
+        },
+        "center_of_mass": [
+          3.3779747410345898e-15,
+          5.458015122550286e-16,
+          4.749999999999997
+        ],
+        "edges": 4,
+        "face_types": {
+          "cylinder": 2,
+          "plane": 2
+        },
+        "faces": 4,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "Body1",
+        "vertices": 4,
+        "visible": true,
+        "volume_mm3": 1460.0850040151802
+      }
+    ],
+    "feature": {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "definition": {
+        "designation": "M12.3x1.5",
+        "face": [
+          5.33810118395,
+          0,
+          4.75
+        ],
+        "length": "6.5",
+        "modeled": true
+      },
+      "error": null,
+      "id": 3,
+      "inputs": [
+        {
+          "expression": "6.5",
+          "label": "Length",
+          "param": "d5",
+          "unit": "mm"
+        }
+      ],
+      "name": "NativeFemaleThread",
+      "omitted": [],
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ThreadFeature",
+      "warning": null
+    },
+    "after": [
+      {
+        "area_mm2": 1210.230734791439,
+        "bbox": {
+          "max": [
+            9.99820045062534,
+            9.999731337406425,
+            8.00000000000638
+          ],
+          "min": [
+            -9.998200450625337,
+            -9.999731337406425,
+            1.4999999999977045
+          ]
+        },
+        "center_of_mass": [
+          0.011356064112087049,
+          -0.0065527533301056795,
+          4.750000752958421
+        ],
+        "edges": 4183,
+        "face_types": {
+          "plane": 1674
+        },
+        "faces": 1674,
+        "kernel": {
+          "edges": 10971,
+          "faces": 1754,
+          "shells": 1,
+          "vertices": 9219
+        },
+        "name": "Body1",
+        "vertices": 2510,
+        "visible": true,
+        "volume_mm3": 1378.7293780684506
+      }
+    ]
+  },
+  "cosmetic": {
+    "before": [
+      {
+        "area_mm2": 1075.662363264779,
+        "bbox": {
+          "max": [
+            9.99984556213238,
+            9.999763825245502,
+            8.000000000000002
+          ],
+          "min": [
+            -9.999845562132379,
+            -9.999763825245504,
+            1.499999999999994
+          ]
+        },
+        "center_of_mass": [
+          3.3779747410345898e-15,
+          5.458015122550286e-16,
+          4.749999999999997
+        ],
+        "edges": 4,
+        "face_types": {
+          "cylinder": 2,
+          "plane": 2
+        },
+        "faces": 4,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "Body1",
+        "vertices": 4,
+        "visible": true,
+        "volume_mm3": 1460.0850040151802
+      }
+    ],
+    "thread": {
+      "axis": [
+        -5.03355915992672e-17,
+        -2.312738833686306e-16,
+        1
+      ],
+      "axis_point": [
+        1.1102230246251565e-15,
+        -8.881784197001252e-15,
+        -1.998240989730979e-30
+      ],
+      "body": "Body1",
+      "designation": "M12.3x1.5",
+      "end": 7.999999999999999,
+      "feature": 3,
+      "internal": true,
+      "major_diameter": 12.3,
+      "pitch": 1.5,
+      "start": 1.4999999999999991
+    },
+    "feature": {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "definition": {
+        "designation": "M12.3x1.5",
+        "face": [
+          5.33810118395,
+          0,
+          4.75
+        ],
+        "length": "6.5"
+      },
+      "error": null,
+      "id": 3,
+      "inputs": [
+        {
+          "expression": "6.5",
+          "label": "Length",
+          "param": "d5",
+          "unit": "mm"
+        }
+      ],
+      "name": "CosmeticFemaleThread",
+      "omitted": [],
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ThreadFeature",
+      "warning": null
+    },
+    "after": [
+      {
+        "area_mm2": 1075.662363264779,
+        "bbox": {
+          "max": [
+            9.99984556213238,
+            9.999763825245502,
+            8.000000000000002
+          ],
+          "min": [
+            -9.999845562132379,
+            -9.999763825245504,
+            1.499999999999994
+          ]
+        },
+        "center_of_mass": [
+          3.3779747410345898e-15,
+          5.458015122550286e-16,
+          4.749999999999997
+        ],
+        "edges": 4,
+        "face_types": {
+          "cylinder": 2,
+          "plane": 2
+        },
+        "faces": 4,
+        "kernel": {
+          "edges": 12,
+          "faces": 6,
+          "shells": 1,
+          "vertices": 8
+        },
+        "name": "Body1",
+        "vertices": 4,
+        "visible": true,
+        "volume_mm3": 1460.0850040151802
+      }
+    ]
+  },
+  "saved_native_reload": {
+    "bodies": [
+      {
+        "area_mm2": 1210.230734791439,
+        "bbox": {
+          "max": [
+            9.99820045062534,
+            9.999731337406425,
+            8.00000000000638
+          ],
+          "min": [
+            -9.998200450625337,
+            -9.999731337406425,
+            1.4999999999977045
+          ]
+        },
+        "center_of_mass": [
+          0.011356064112087049,
+          -0.0065527533301056795,
+          4.750000752958421
+        ],
+        "density_g_cm3": 1.29,
+        "edges": 4183,
+        "face_types": {
+          "plane": 1674
+        },
+        "faces": 1674,
+        "kernel": {
+          "edges": 10971,
+          "faces": 1754,
+          "shells": 1,
+          "vertices": 9219
+        },
+        "mass_g": 1.7785608977083014,
+        "material": "Default",
+        "name": "Body1",
+        "vertices": 2510,
+        "volume_mm3": 1378.7293780684506
+      }
+    ],
+    "body_count": 1,
+    "params": [],
+    "sketches": [],
+    "timeline": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 1,
+        "ms": 2.90713,
+        "name": "ThreadCoupon",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 2,
+        "ms": 10.891369,
+        "name": "MinorBore",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "CylinderFeature",
+        "warning": null
+      },
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 3,
+        "ms": 585.942689,
+        "name": "NativeFemaleThread",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ThreadFeature",
+        "warning": null
+      }
+    ],
+    "total": {
+      "area_mm2": 1210.230734791439,
+      "edges": 4183,
+      "faces": 1674,
+      "mass_g": 1.7785608977083014,
+      "vertices": 2510,
+      "volume_mm3": 1378.7293780684506
+    }
+  }
+}
